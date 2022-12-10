@@ -1,0 +1,513 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+link {
+    border-radius: 100%;
+}
+
+/*Interfaz*/
+
+#Interfaz{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 25px 20px 25px 20px;
+    font-size: 16px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li i {
+    color: #ffffff;
+    padding-right: 10px;
+    padding-top: -10px;
+}
+
+.menu li:hover {
+    background-color: #033458;
+
+}
+
+#Interfaz img{
+    width: 150px;
+    height: 150px;
+    float: left; 
+    clip-path: inset(0 0 31% 0);
+    margin-top: -110px;
+    margin-left: -20px;
+}
+
+#Interfaz h3 {
+    color:#ffffff;
+    padding-left: 90px;
+    margin-top: -75px;
+}
+
+/*Inicio*/
+
+#Inicio {
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+#Inicio h3 {
+    text-align: center;
+    position: relative;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 70px;
+}
+
+#Inicio h6 {
+    text-align: center;
+    position: relative;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#particles-js{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    background-color: #3C626B;
+    margin-top: -396px;
+}
+
+/*Sobre nosotros*/
+
+#Sobre {
+    padding-top: 100px;
+    background-color: #ccc7c9;
+    margin-top: -38px;
+}
+
+#Sobre h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.raya1 {
+    background-color:#dd6d4a;
+    margin-top: 35px;
+    width: 100px;
+    height: 3px;
+    margin-bottom: 150px;
+}
+
+.introduccion {
+    z-index: 99;  
+    margin-left: 50px;
+}
+
+.introduccion img {
+    float: right;
+    margin-right: 150px;
+    margin-top: -480px;
+    width: 480px;
+    height: 480px;
+}
+
+.introduccion p {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 50px;
+    margin-right: 25px;
+    left: 140px;
+    right: 590px;
+    font-size: 18px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+.introduccion h2 {
+    margin-left: 150px;
+    background-color: white;
+    margin-right: 570px;
+    position: relative;
+    font-size: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 30px 30px 350px 90px;
+}
+
+.contsobre {
+    margin-top: 300px;
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mision {
+    color:#ffffff;
+    margin-right: 50px;
+}
+
+.mision h1 {
+    width: 60px;
+    height: 60px;
+    margin-left: 165px;
+}
+
+.mision h2 {
+    font-size: 30px;
+    margin-left: 155px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.mision p {
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 950px;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.vision {
+    color:#ffffff;
+    padding-left: 90px;
+    margin-left: 410px;
+    margin-top: -345px;
+    border-width: 0px 0px 0px 3px;
+}
+
+.vision h1 {
+    width: 60px;
+    height: 60px;
+    margin-left: 131px;
+}
+
+.vision h2 {
+    font-size: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: 125px;
+}
+
+.vision p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    margin-right: 500px;
+}
+
+.valores {
+    color:#ffffff;
+    margin-left: 950px;
+    margin-top: -400px;
+    padding-left: 200px;
+    border-width: 0px 0px 0px 3px;
+
+}
+
+.valores h1 {
+    width: 60px;
+    height: 60px;
+    margin-left: -50px;
+}
+
+.valores h2 {
+    font-size: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-left: -63px;
+}
+
+.valores ul {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -230px;
+    padding-bottom: 30px;
+}
+
+.container {
+    margin-top: 150px;
+    padding-bottom: 300px;
+    margin-bottom: -170px;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 15px;
+}
+
+/*Nuestro personal*/
+
+#Personal {
+    background-color: #000000;
+    padding-top: 100px;
+}
+
+.subtitulo h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.contePersonal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: -30px;
+    margin-top: -170px;
+}
+
+.contePersonal figure {
+    position: relative;
+    height: 300px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    margin-left: 90px;
+}
+
+.contePersonal figure img {
+    width: 100%;
+    height: 110%;
+    transition: all 500ms ease-out; 
+}
+
+.contePersonal figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 110%;
+    background: rgba(30, 255, 60, 0.61);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: visible;
+    text-align: center;
+}
+
+.contePersonal figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contePersonal figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.contePersonal figure .capa h3{
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.contePersonal figure .capa h4 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+.carousel__anterior,
+.carousel__siguiente {
+    position: relative;
+    display: block;
+	width: 60px;
+	height: 60px;
+	border: none;
+	top: calc(50% - 35px);
+	line-height: 30px;
+	background: none;
+	text-align: center;
+	cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+button:focus {
+    outline: none;
+    background-color: #000000;
+}
+
+.carousel__anterior {
+    margin-left: 40px;
+    margin-top: -550px;
+}
+
+.carousel__siguiente {
+    margin-right: 40px;
+    margin-top: -550px;
+}
+
+/*Proyecto*/
+
+#Proyecto {
+    background-color: #ccc7c9;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#Proyecto h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Proza Libre', sans-serif;
+    padding-top: 100px;
+}
+
+#Proyecto h2 {
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+#Proyecto .proyectop p {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 590px;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+#Proyecto .contenedor img {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#Proyecto .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 700px;
+    margin-top: -340px;
+    padding-bottom: 150px;
+}
+
+#Proyecto .contenedor>div{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    background-color: #f892ce;
+    border-radius: 20px;
+}
+
+#Proyecto .contenedor>div:hover{
+    background-color: #f54cd0;
+}
+
+#Proyecto .informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+
+#Proyecto .informacion>p:first-child{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #fff;
+}
+#Proyecto .informacion .precio {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+#Proyecto .informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+    color: #fff;
+}
+#Proyecto .informacion a {
+    background-color: #000000;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+    color: #fff;
+    margin-top: -20px;
+    padding-left: 15px;
+}
+#Proyecto .informacion a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*Contacto*/
+#Contacto {
+    background-color: #000000;
+}
+
+#Contacto section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: -380px;
+    margin-right: 280px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#Contacto .mb-4  h4 {
+    padding-left: 140px;
+}
+
+#Contacto iframe {
+    margin-left: 650px;
+    margin-top: -700px;
+}
+
+/*Barra final*/
+
+#Parte {
+    background-color: #3C626B;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: x-large;
+    font-family:'Lexend Deca', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-top: -5px;
+}
+
+.facebook i {
+    color: rgb(255, 255, 255);
+}
+
+.instagram i {
+    color: rgb(255, 255, 255)
+}
+
+.whatss i {
+    color: rgb(255, 255, 255);
+}
