@@ -131,3 +131,12 @@ window.addEventListener('load', function(){
       }
   });
 });
+
+const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+if( width >=768){
+
+    iframe = document.querySelector("iframe");
+    iframe.setAttribute("width", "600");
+    iframe.setAttribute("height", "611");
+
+}

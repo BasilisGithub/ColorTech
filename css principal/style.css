@@ -63,13 +63,16 @@ link {
     padding-top: 300px;
     padding-bottom: 100px;
 }
-
+.centrando-elementos{
+    margin-top: -200px !important;
+}
 #Inicio h3 {
+    /*Center this h3 in the Inicio div*/
     text-align: center;
     position: relative;
     color: white;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 70px;
+    font-size: 40px;
 }
 
 #Inicio h6 {
@@ -87,182 +90,410 @@ link {
     background-color: #3C626B;
     margin-top: -396px;
 }
-
+iframe{
+    border: 1px solid #6a6c6e !important;
+}
 /*Sobre nosotros*/
 
-#Sobre {
-    padding-top: 100px;
-    background-color: #ccc7c9;
-    margin-top: -38px;
+@media screen and (max-width: 800px) {
+    .menu li {
+        display: none !important;
+    }
+
+    .padding-contacto{
+        padding: 5rem;
+    }
+    #Sobre{
+        z-index: 99;  
+        background-color: #ccc7c9;
+    }
+
+    section.descripcionNosotros{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .raya1 {
+        background-color:#dd6d4a;
+        width: 100%;
+        height: 3px;
+    }
+
+    #Sobre h3 {
+        text-align: left;
+        font-size: 35px;
+        font-family: 'Proza Libre', sans-serif;
+        padding-top: 3rem;
+    }
+
+    .contsobre {
+        padding-top: 2rem;
+        padding-bottom:2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 3rem;
+        background-color: #161623;
+        width: 100%;
+    }
+
+    .mision {
+        color:#ffffff;
+        text-align: center;
+    }
+
+    .mision p {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+
+    .vision {
+        color:#ffffff;
+        border-width: 0px 0px 0px 3px;
+    }
+    
+    .vision h1 {
+        text-align: center;
+    }
+    
+    .vision h2 {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .vision p {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .valores {
+        color:#ffffff;
+        border-width: 0px 0px 0px 3px;
+    
+    }
+    
+    .valores h1 {
+        text-align: center;
+    }
+    
+    .valores h2 {
+        font-size: 30px;
+        font-family: 'Lexend Deca', sans-serif;
+        text-align: center;
+    }
+    
+    .valores ul {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .container {
+        margin-top: 150px;
+        padding-bottom: 300px;
+        margin-bottom: -170px;
+    }
+    
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+    }
+    
+    .carousel .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        border-radius: 15px;
+    }
+
+    .contePersonal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #Personal {
+        background-color: #161623;
+        padding-top: 3rem;
+    }
+
+    .contePersonal figure {
+        position: relative;
+        height: 300px;
+        width: 250px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+    }
+
+    .glider-slide {
+        min-width: 270px !important;
+    }
+
+    figure {
+        margin: 0px 0px 0px 0px !important;
+    }
+
+    #Proyecto h3 {
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Proza Libre', sans-serif;
+        padding-top: 5rem;
+    }
+
+    #Proyecto h2 {
+        display:none;
+    }
+
+    #Proyecto .proyectop p {
+        font-size: 20px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.50);
+        padding: 50px;
+    }
+
+    #Proyecto .contenedor{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        padding-bottom: 5rem;
+    }
+
+    #Contacto section {
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    iframe{
+        width: 100%;
+        height: 100vh;
+    }
 }
 
-#Sobre h3 {
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Proza Libre', sans-serif;
-}
+@media screen and (min-width: 800px) {
+    #Proyecto .proyectop p {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 590px;
+        color: rgba(0, 0, 0, 0.50);
+    }
+    #Proyecto h2 {
+        margin-left: 200px;
+        margin-top: 200px;
+    }
+    #Proyecto h3 {
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Proza Libre', sans-serif;
+        padding-top: 100px;
+    }
 
-.raya1 {
-    background-color:#dd6d4a;
-    margin-top: 35px;
-    width: 100px;
-    height: 3px;
-    margin-bottom: 150px;
-}
+    #Sobre h3 {
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Proza Libre', sans-serif;
+    }
 
-.introduccion {
-    z-index: 99;  
-    margin-left: 50px;
-}
+    #Sobre {
+        padding-top: 100px;
+        background-color: #ccc7c9;
+        margin-top: -38px;
+    }
+    
+    .raya1 {
+        background-color:#dd6d4a;
+        margin-top: 35px;
+        width: 100px;
+        height: 3px;
+        margin-bottom: 150px;
+    }
 
-.introduccion img {
-    float: right;
-    margin-right: 150px;
-    margin-top: -480px;
-    width: 480px;
-    height: 480px;
-}
+    .introduccion {
+        z-index: 99;  
+        margin-left: 50px;
+    }
 
-.introduccion p {
-    position: absolute;
-    margin-top: -330px;
-    margin-left: 50px;
-    margin-right: 25px;
-    left: 140px;
-    right: 590px;
-    font-size: 18px;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-}
+    .introduccion img {
+        float: right;
+        margin-right: 150px;
+        margin-top: -480px;
+        width: 480px;
+        height: 480px;
+    }
+    
+    .introduccion p {
+        position: absolute;
+        margin-top: -330px;
+        margin-left: 50px;
+        margin-right: 25px;
+        left: 140px;
+        right: 590px;
+        font-size: 18px;
+        font-family: 'Lexend Deca', sans-serif;
+        text-align: center;
+    }
+    
+    .introduccion h2 {
+        margin-left: 150px;
+        background-color: white;
+        margin-right: 570px;
+        position: relative;
+        font-size: 50px;
+        font-family: 'Lexend Deca', sans-serif;
+        padding: 30px 30px 350px 90px;
+    }
 
-.introduccion h2 {
-    margin-left: 150px;
-    background-color: white;
-    margin-right: 570px;
-    position: relative;
-    font-size: 50px;
-    font-family: 'Lexend Deca', sans-serif;
-    padding: 30px 30px 350px 90px;
-}
 
-.contsobre {
-    margin-top: 300px;
-    background-color: #000000;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+    .contsobre {
+        margin-top: 300px;
+        background-color: #161623;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 
-.mision {
-    color:#ffffff;
-    margin-right: 50px;
-}
+    
+    .mision {
+        color:#ffffff;
+        text-align: center;
+    }
 
-.mision h1 {
-    width: 60px;
-    height: 60px;
-    margin-left: 165px;
-}
+    .mision h1 {
+        text-align: center;
+    }
 
-.mision h2 {
-    font-size: 30px;
-    margin-left: 155px;
-    font-family: 'Lexend Deca', sans-serif;
-}
+    .mision h2 {
+        font-size: 30px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+    }
 
-.mision p {
-    font-size: 20px;
-    margin-left: 60px;
-    margin-right: 950px;
-    text-align: center;
-    font-family: 'Lexend Deca', sans-serif;
-}
+    .mision p {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+    }
 
-.vision {
-    color:#ffffff;
-    padding-left: 90px;
-    margin-left: 410px;
-    margin-top: -345px;
-    border-width: 0px 0px 0px 3px;
-}
+    .vision {
+        color:#ffffff;
+        text-align: center;
+        border-width: 0px 0px 0px 3px;
+    }
+    
+    .vision h1 {
+        text-align: center;    
+    }
+    
+    .vision h2 {
+        font-size: 30px;
+        font-family: 'Lexend Deca', sans-serif;
+        text-align: center;
+    }
+    
+    .vision p {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lexend Deca', sans-serif;
+        text-align: center;
+    }
 
-.vision h1 {
-    width: 60px;
-    height: 60px;
-    margin-left: 131px;
-}
+    .valores {
+        color:#ffffff;
+        text-align: center;
+        border-width: 0px 0px 0px 3px;
+    
+    }
+    
+    .valores h1 {
+        text-align: center;
+    }
+    
+    .valores h2 {
+        font-size: 30px;
+        font-family: 'Lexend Deca', sans-serif;
+        text-align: center;
+    }
+    
+    .valores ul {
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
 
-.vision h2 {
-    font-size: 30px;
-    font-family: 'Lexend Deca', sans-serif;
-    margin-left: 125px;
-}
+    .container {
+        margin-top: 150px;
+        padding-bottom: 300px;
+        margin-bottom: -170px;
+    }
+    
+    .carousel .carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+    }
+    
+    .carousel .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        border-radius: 15px;
+    }
 
-.vision p {
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Lexend Deca', sans-serif;
-    text-align: center;
-    margin-right: 500px;
-}
+    .contePersonal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin-bottom: -30px;
+        margin-top: -170px;
+    }
 
-.valores {
-    color:#ffffff;
-    margin-left: 950px;
-    margin-top: -400px;
-    padding-left: 200px;
-    border-width: 0px 0px 0px 3px;
+    #Personal {
+        background-color: #161623;
+        padding-top: 100px;
+    }
 
-}
+    .contePersonal figure {
+        position: relative;
+        height: 300px;
+        width: 250px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+        margin-left: 90px;
+    }
 
-.valores h1 {
-    width: 60px;
-    height: 60px;
-    margin-left: -50px;
-}
+    #Proyecto .contenedor{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-left: 700px;
+        margin-top: -340px;
+        padding-bottom: 150px;
+    }
 
-.valores h2 {
-    font-size: 30px;
-    font-family: 'Lexend Deca', sans-serif;
-    margin-left: -63px;
-}
-
-.valores ul {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    margin-left: -230px;
-    padding-bottom: 30px;
-}
-
-.container {
-    margin-top: 150px;
-    padding-bottom: 300px;
-    margin-bottom: -170px;
-}
-
-.carousel .carousel-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 350px;
-}
-
-.carousel .carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    border-radius: 15px;
+    #contacto{
+        margin:100px;
+    }
 }
 
 /*Nuestro personal*/
-
-#Personal {
-    background-color: #000000;
-    padding-top: 100px;
-}
 
 .subtitulo h3 {
     color: rgb(255, 255, 255);
@@ -271,25 +502,7 @@ link {
     font-family: 'Proza Libre', sans-serif;
 }
 
-.contePersonal {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-bottom: -30px;
-    margin-top: -170px;
-}
 
-.contePersonal figure {
-    position: relative;
-    height: 300px;
-    width: 250px;
-    overflow: hidden;
-    border-radius: 6px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
-    margin-left: 90px;
-}
 
 .contePersonal figure img {
     width: 100%;
@@ -375,41 +588,11 @@ button:focus {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-#Proyecto h3 {
-    text-align: center;
-    font-size: 35px;
-    font-family: 'Proza Libre', sans-serif;
-    padding-top: 100px;
-}
-
-#Proyecto h2 {
-    margin-left: 200px;
-    margin-top: 200px;
-}
-
-#Proyecto .proyectop p {
-    font-size: 20px;
-    text-align: center;
-    margin-left: 100px;
-    margin-right: 590px;
-    color: rgba(0, 0, 0, 0.50);
-}
-
 #Proyecto .contenedor img {
     width: 320px;
     height: 340px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-}
-
-#Proyecto .contenedor{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin-left: 700px;
-    margin-top: -340px;
-    padding-bottom: 150px;
 }
 
 #Proyecto .contenedor>div{
@@ -467,26 +650,6 @@ button:focus {
 }
 
 /*Contacto*/
-#Contacto {
-    background-color: #000000;
-}
-
-#Contacto section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: -380px;
-    margin-right: 280px;
-    font-family: 'Lexend Deca', sans-serif;
-}
-
-#Contacto .mb-4  h4 {
-    padding-left: 140px;
-}
-
-#Contacto iframe {
-    margin-left: 650px;
-    margin-top: -700px;
-}
 
 /*Barra final*/
 

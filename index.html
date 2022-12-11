@@ -47,8 +47,7 @@
     <body>
     <!--Interfaz-->
     <div id="Interfaz">
-        
-        <ul class="menu">
+        <ul class="menu pt-3">
             <li><a href="#Inicio" style="text-decoration: none;"><i class="fa-solid fa-flag"></i>Inicio</a></li>
             <li><a href="#Sobre" style="text-decoration: none;"><i class="fa-solid fa-bookmark"></i>Sobre Nosotros</a></li>
             <li><a href="#Personal" style="text-decoration: none;"><i class="fa-solid fa-user"></i>Personal administrativo</a></li>
@@ -66,12 +65,8 @@
     <div id="Inicio">
 
         <div id="particles-js"></div>
-
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" class="centrando-elementos">
             <h3>¡Bienvenidos a ColorTech!</h3>
-        </div>
-
-        <div data-aos="fade-up">
             <h6>La tecnología para la primera infancia</h6>
         </div>
 
@@ -80,71 +75,75 @@
     <!--Sobre nosotros-->
     <div id="Sobre">
 
-        <h3>Sobre Nosotros</h3>
+        <section class="descripcionNosotros">
 
-        <center><div class="raya1"></div></center>
-    
-        <div class="introduccion" data-aos="fade-down">
+            <h3>Sobre Nosotros</h3>
 
-            <h2>¿Quiénes somos?</h2>
+            <center><div class="raya1"></div></center>
+        
+            <div class="introduccion" data-aos="fade-down">
 
-            <p>Somos la organización líder en República Dominicana en la implementación de metodologías educativas utilizando Robótica, Pedagogías lúdicas, entre otras. Nosotros estamos ubicados en la Plaza Capuchinos, calle Max Heriquez Ureña, piantini, República Dominicana. Buscamos transformar e impulsar la educación, con el objetivo de generar mayores oportunidades para que las nuevas generaciones obtengan las habilidades y herramientas necesarias para construir un mejor presente y futuro.</p>
-            
-            <img src="img principal/Logo original.png" alt="">
+                <h2>¿Quiénes somos?</h2>
 
-        </div>
+                <p>Somos la organización líder en República Dominicana en la implementación de metodologías educativas utilizando Robótica, Pedagogías lúdicas, entre otras. Nosotros estamos ubicados en la Plaza Capuchinos, calle Max Heriquez Ureña, piantini, República Dominicana. Buscamos transformar e impulsar la educación, con el objetivo de generar mayores oportunidades para que las nuevas generaciones obtengan las habilidades y herramientas necesarias para construir un mejor presente y futuro.</p>
+                
+                <img class="img-fluid pt-3" src="img principal/Logo original.png" alt="">
+
+            </div>
+
+        </section>
 
         <div class="contsobre">
+            <div class="row">
+                <div class="mision col-md-4"> 
 
-            <div class="mision"> 
+                    <h1><i class="fa-solid fa-graduation-cap"></i></h1>
 
-                <h1><i class="fa-solid fa-graduation-cap"></i></h1>
+                    <h2>Misión</h2>
 
-                <h2>Misión</h2>
+                    <div data-aos="fade-up">
 
-                <div data-aos="fade-up">
-
-                    <p>Entregar servicios de calidad a nuestros clientes y maximizar el servicio múltiple metodológico mediante la robótica.</p>
+                        <p>Entregar servicios de calidad a nuestros clientes y maximizar el servicio múltiple metodológico mediante la robótica.</p>
+                    
+                    </div>
                 
                 </div>
-            
-            </div>
 
-            <div class="vision">
+                <div class="vision col-md-4">
 
-                <h1><i class="fa-solid fa-eye"></i></h1>
+                    <h1><i class="fa-solid fa-eye"></i></h1>
 
-                <h2>Visión</h2>
+                    <h2>Visión</h2>
 
-                <div data-aos="fade-up">
+                    <div data-aos="fade-up">
 
-                    <p>Ser una empresa líder en el rubro, y satisfacer siempre a nuestros clientes con nuestros productos. Expandir nuestras líneas de productos para así generar nuevas soluciones para nuestros compradores.</p>
+                        <p>Ser una empresa líder en el rubro, y satisfacer siempre a nuestros clientes con nuestros productos. Expandir nuestras líneas de productos para así generar nuevas soluciones para nuestros compradores.</p>
+                    
+                    </div>
                 
+                </div>     
+
+                <div class="valores col-md-4">
+
+                    <h1><i class="fa-solid fa-face-smile"></i></h1>
+
+                    <h2>Valores</h2>
+
+                    <div data-aos="fade-up">
+
+                        <ul>
+                            <li>Integridad</li>
+                            <li>Compromiso al cliente</li>
+                            <li>Trabajo equipo</li>
+                            <li>Capacitación</li>
+                            <li>Empatía</li>
+                            <li>Compromiso</li>
+                        </ul>
+
+                    </div>
+
                 </div>
-            
-            </div>     
-
-            <div class="valores">
-
-                <h1><i class="fa-solid fa-face-smile"></i></h1>
-
-                <h2>Valores</h2>
-
-                <div data-aos="fade-up">
-
-                    <ul>
-                        <li>Integridad</li>
-                        <li>Compromiso al cliente</li>
-                        <li>Trabajo equipo</li>
-                        <li>Capacitación</li>
-                        <li>Empatía</li>
-                        <li>Compromiso</li>
-                    </ul>
-
-                </div>
-
             </div>
-
         </div>
 
         <div class="container">
@@ -496,89 +495,81 @@
     </div>
 
     <!--Contacto-->
-    <div id="Contacto">
-        
-        <section class="d-flex justify-content-center align-items-center">
+    <div id="contacto">
+        <div class="row">
+                <section class="col-md-6 col-xs-12 padding-contacto">
 
-            <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-4 p-4"> 
+                            <div class="mb-1">
 
-                <div class="mb-4 d-flex justify-content-start align-items-center">
-                    
-                    <h4>Contacto</h4>
+                                <form id ="contacto" >
+                                    <h4>Contacto</h4>
+                                    <div class="mb-4 d-flex justify-content-between"> 
 
-                </div>
+                                        <div>
 
-                <div class="mb-1">
+                                            <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
 
-                    <form id ="contacto" >
+                                            <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "Escriba su nombre" required>
 
-                        <div class="mb-4 d-flex justify-content-between"> 
+                                            <div class="nombre text-danger "></div>
 
-                            <div>
+                                        </div>
 
-                                <label for="nombre"> <i class="bi bi-person-fill"></i> Nombre</label>
+                                        <div >
 
-                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "Escriba su nombre" required>
+                                            <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
 
-                                <div class="nombre text-danger "></div>
-
-                            </div>
-
-                            <div >
-
-                                <label for="apellido"> <i class="bi bi-person-bounding-box"></i> Apellido</label>
-
-                                <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "Escriba su apellido" required>
+                                            <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "Escriba su apellido" required>
 
 
-                                <div class="apellido text-danger"></div>
+                                            <div class="apellido text-danger"></div>
 
-                            </div>
+                                        </div>
 
-                        </div>
+                                    </div>
 
-                        <div class="mb-4">
+                                    <div class="mb-4">
 
-                            <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
+                                        <label for="correo"><i class="bi bi-envelope-fill"></i> Correo</label>
 
-                            <input type="email" class="form-control" name="correo" id="correo" placeholder= "Escriba su correo electrónico" required>
+                                        <input type="email" class="form-control" name="correo" id="correo" placeholder= "Escriba su correo electrónico" required>
 
-                            <div class="correo text-danger"></div>
+                                        <div class="correo text-danger"></div>
+                                        
+                                    </div> 
+                                    
+                                    <div class="mb-4">
+                                    
+                                        <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Mensaje</label>
+                                    
+                                        <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Escriba su mensaje"></textarea>
+                                    
+                                        <div class="mensaje text-danger"></div>
+                                    
+                                    </div> 
+                                    
+
+                                    
+                                    <div class="mb-2">
+                                    
+                                        <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
+                                    
+                                            <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
+                                    
+                                        </button>
+                                    
+                                    </div> 
+                                    
+                                </form>
                             
-                        </div> 
-                        
-                        <div class="mb-4">
-                        
-                            <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i> Mensaje</label>
-                        
-                            <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Escriba su mensaje"></textarea>
-                        
-                            <div class="mensaje text-danger"></div>
-                        
-                        </div> 
-                        
+                            </div>
 
-                        
-                        <div class="mb-2">
-                        
-                            <button id ="botton" class="col-12 btn btn-primary d-flex justify-content-between ">
-                        
-                                <span>Enviar </span><i id="icono" class="bi bi-cursor-fill "></i>
-                        
-                            </button>
-                        
-                        </div> 
-                        
-                    </form>
-                
-                </div>
+                </section>
 
-            </div>
-
-        </section>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2218670875855!2d-69.93788808510789!3d18.47360678743645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89e646e176c3%3A0x70b297d93c5d03df!2sPlaza%20Capuchinos!5e0!3m2!1ses!2sdo!4v1670491183506!5m2!1ses!2sdo" width="699" height="611" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+                <section class="col-md-6  col-xs-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.2218670875855!2d-69.93788808510789!3d18.47360678743645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89e646e176c3%3A0x70b297d93c5d03df!2sPlaza%20Capuchinos!5e0!3m2!1ses!2sdo!4v1670491183506!5m2!1ses!2sdo" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+        </div>
     </div>
 
     <!--Barra final-->
